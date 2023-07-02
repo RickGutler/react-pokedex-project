@@ -13,7 +13,7 @@ const Home = (props) => {
 
     return (
         <div className='flex-col gap-6'>
-            <div className="flex justify-between mx-12">
+            <div className="flex justify-between mx-12 flex-wrap">
                 <h1 className={styles.titulo}>Pokemons</h1>
                 <div className="flex justify-center self-center gap-2">
                     <BarraPesquisa placeholder="Pesquisar com id ou nome" valorBarraPesquisa={(valorDigitado) => setValorBarraPesquisa(valorDigitado)} valorPesquisa={valorBarraPesquisa} />
