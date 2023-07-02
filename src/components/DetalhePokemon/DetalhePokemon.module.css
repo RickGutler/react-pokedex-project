@@ -1,0 +1,96 @@
+.progresso {
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(75 85 99);
+}
+
+.progresso::-webkit-progress-bar {
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(75 85 99);
+}
+
+.progresso::-webkit-progress-value {
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(156 163 175);
+}
+
+.progresso::-moz-progress-bar {
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(75 85 99);
+
+}
+
+.grass {
+    background-color: #74CB48;
+}
+
+.fire {
+    background-color: #F57D31;
+}
+
+.poison {
+    background-color: #A43E9E;
+}
+
+.normal {
+    background-color: #AAA67F;
+}
+
+.flying {
+    background-color: #A891EC;
+}
+
+.bug {
+    background-color: #A7B723;
+}
+
+.dark {
+    background-color: #75574C;
+}
+
+.dragon {
+    background-color: #7037FF;
+}
+
+.electric {
+    background-color: #F9CF30;
+}
+
+.fairy {
+    background-color: #E69EAC;
+}
+
+.ground {
+    background-color: #DEC16B;
+}
+
+.water {
+    background-color: #6493EB;
+}
+
+.fighting {
+    background-color: #C12239;
+}
+
+.psychic {
+    background-color: #FB5584;
+}
+
+.rock {
+    background-color: #B69E31;
+}
+
+.ice {
+    background-color: #9AD6DF;
+}
+
+.ghost {
+    background-color: #70559B;
+}
+
+.steel {
+    background-color: #B7B9D0;
+}

@@ -1,0 +1,15 @@
+.titulo{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    align-self: center;
+}
+
+.botao{
+    margin: 10px auto;
+}
+
+.lupa{
+    font-size: 24px;
+}
