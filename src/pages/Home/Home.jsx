@@ -16,7 +16,7 @@ const Home = (props) => {
             <div className="flex justify-between mx-12 flex-wrap">
                 <h1 className={styles.titulo}>Pokemons</h1>
                 <div className="flex justify-center self-center gap-2">
-                    <BarraPesquisa placeholder="Pesquisar com id ou nome" valorBarraPesquisa={(valorDigitado) => setValorBarraPesquisa(valorDigitado)} valorPesquisa={valorBarraPesquisa} />
+                    <BarraPesquisa placeholder="Pesquisar com nome" valorBarraPesquisa={(valorDigitado) => setValorBarraPesquisa(valorDigitado)} valorPesquisa={valorBarraPesquisa} />
                     <button onClick={() => navegar(`/pokemon/${valorBarraPesquisa.toLowerCase()}`)} className="bg-zinc-800 w-10 max-h-10 align-center flex justify-center p-2 rounded-xl hover:bg-zinc-600">
                         <AiOutlineSearch className={styles.lupa} />
                     </button>
