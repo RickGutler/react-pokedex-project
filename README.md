@@ -5,3 +5,4 @@ Você pode usar a API com este link: https://pokeapi.co/
 
 Este trabalho foi feito como o projeto final da matéria Front-End 2 do curso Tecnologia em Sistemas Para Internet do IFES de Santa Teresa.
 
+Link para visualização: https://react-pokedex-project-bice.vercel.app/
